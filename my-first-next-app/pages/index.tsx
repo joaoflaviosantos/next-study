@@ -19,13 +19,13 @@ const Home: NextPage = ({ org }) => {
 export default Home
 
 export const getStaticProps: GetStaticProps = async () => {
-  const response = await fetch('https://api.github.com/orgs/rocketseat')
+  const response = await fetch(`https://api.github.com/orgs/rocketseat`)
   const data = await response.json()
 
   return {
     props: {
       org: data,
     },
-    revalidate: 10
+    revalidate: 3600 * 24 * 31
   }
 }
