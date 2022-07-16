@@ -1,5 +1,7 @@
 # Static internationalized (i18n) next.js website with the help of [next-i18next](https://github.com/i18next/next-i18next) and [next-language-detector](https://github.com/i18next/next-language-detector)
 
+- https://dev.to/adrai/static-html-export-with-i18n-compatibility-in-nextjs-8cd
+
 ## What is this?
 
 This is a simple example of how to use [next-i18next](https://github.com/i18next/next-i18next) with [Next.js](https://github.com/zeit/next.js) for a complete static website and optional use of [locize](https://locize.com) to get translations up and running quickly and easily.
