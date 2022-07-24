@@ -2,13 +2,20 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
+import img_background from '../public/img/login-background.jpg'
+
 const Login: NextPage = () => {
   return (
-    <div className="h-screen w-screen justify-center flex items-center bg-gray-100">
+    <>
+    <Head>
+      <title>Login</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
+    {/*  https://redpixelthemes.com/blog/tailwindcss-background-image/ */}
+    <div className="h-screen w-screen justify-center flex items-center bg-login-background bg-no-repeat bg-cover bg-center">
       <div className="w-80">
-        <h2 className="text-lg font-bold text-center mb-2">Login</h2>
-
         <div className="bg-white shadow-md rounded-md p-4 space-y-4">
+            <h2 className="text-gray-800 text-lg font-bold text-center">Login</h2>
             <div>
               <label
               htmlFor="email"
@@ -57,6 +64,7 @@ const Login: NextPage = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

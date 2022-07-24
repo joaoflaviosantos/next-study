@@ -4,15 +4,19 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './layouts/**/*.tsx',
-    './lib/**/*.tsx'
+    './src/pages/**/*.{js,ts,jsx,tsx}',
+    './src/components/**/*.{js,ts,jsx,tsx}',
+    './src/layouts/**/*.tsx',
+    './src/lib/**/*.tsx'
   ],
   darkMode: 'class',
   important: true,
   theme: {
     extend: {
+      backgroundImage: {
+        'login-background': "url('../../public/images/login-background.jpg')",
+        'hero-background': "url('../../public/images/hero-image-1.png')",
+      },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         mono: [...defaultTheme.fontFamily.mono],
