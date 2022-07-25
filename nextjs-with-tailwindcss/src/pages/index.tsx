@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import FeaturedResort from '../components/FeaturedResort'
 import Resorts from '../components/Resorts'
-import FormSearch from '../components/FormSearch'
+import SearchForm from '../components/SearchForm'
 import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       <Hero />
       <FeaturedResort />
       <Resorts />
-      <FormSearch />
+      <SearchForm />
       <Footer />
     </div>
     </>

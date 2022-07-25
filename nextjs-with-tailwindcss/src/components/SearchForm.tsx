@@ -1,6 +1,6 @@
 import type { NextComponentType } from 'next'
 
-const FormSearch: NextComponentType = () => {
+const SearchForm: NextComponentType = () => {
   return (
         <div className="py-20">
             <div className="mt-6 container mx-auto px-4 h-24 flex items-center justify-center">
@@ -23,4 +23,4 @@ const FormSearch: NextComponentType = () => {
   )
 }
 
-export default FormSearch
+export default SearchForm
