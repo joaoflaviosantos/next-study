@@ -5,7 +5,7 @@ import featuredResort from '../../public/images/featured-img.png'
 
 const FeaturedResort: NextComponentType = () => {
   return (
-        <div className="">
+        <div className="mt-4">
             <div className="container mx-auto px-4 py-10">
                 <div className="flex">
                     <div className="pr-10">
@@ -34,7 +34,7 @@ const FeaturedResort: NextComponentType = () => {
                     <div className="flex-shrink-0 ml-auto">
                         <Image
                         src={featuredResort}
-                        alt="Search icon"
+                        alt="Featured Resort"
                         className=""
                         width={450}
                         // height={500} automatically provided

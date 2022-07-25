@@ -16,6 +16,8 @@ module.exports = {
       backgroundImage: {
         'login-background': "url('../../public/images/login-background.jpg')",
         'hero-background': "url('../../public/images/hero-image-1.png')",
+        'image-shadow': "url('../../public/images/image-shadow.png')",
+        
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
