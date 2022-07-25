@@ -4,7 +4,9 @@ const Header: NextComponentType = () => {
   return (
         <div className="container mx-auto px-4 h-24 flex items-center">
             <div className="font-black">
-            LOGO
+                <a href="">
+                    LOGO
+                </a>
             </div>
             <ul className="flex items-center ml-auto space-x-3">
                 <li className="">
