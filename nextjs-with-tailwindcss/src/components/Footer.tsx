@@ -7,7 +7,7 @@ import facebook from '../../public/images/icon-facebook.png'
 const Footer: NextComponentType = () => {
   return (
         <div className="border-t-2 border-gray-200">
-            <div className="container mx-auto p-4 h-24 flex items-center justify-between">
+            <div className="container max-w-7xl mx-auto p-4 h-24 flex items-center justify-between">
                 <div className="text-gray-400 font-black">
                     <a href="">
                         LOGO

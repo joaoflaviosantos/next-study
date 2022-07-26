@@ -9,14 +9,14 @@ import hotelFour from '../../public/images/hotel-4.jpeg'
 const Resorts: NextComponentType = () => {
   return (
         <div className="mt-4">
-            <div className="container mx-auto px-4">
+            <div className="container max-w-7xl mx-auto px-4">
                 <div className="text-center mb-8">
                     <h3 className="text-2xl font-semibold">
                         Conheça mais resorts
                     </h3>
                 </div>
-                <div className="grid grid-cols-4 h-96 grid-rows-2 gap-6">
-                    <div className="relative col-span-2 row-span-2 rounded-lg overflow-hidden">
+                <div className="md:grid md:grid-cols-4 md:h-96 md:grid-rows-2 md:gap-6 space-y-6 md:space-y-0">
+                    <div className="relative md:col-span-2 md:row-span-2 rounded-lg overflow-hidden">
                         <div className="absolute bottom-0 left-0 right-0 bg-image-shadow h-16 bg-no-repeat bg-cover bg-center z-10" />
                         <div className="absolute bottom-0 pl-4 mb-3 text-white font-bold z-20">
                             Beach Park Resort
@@ -27,7 +27,7 @@ const Resorts: NextComponentType = () => {
                         alt="Hotel"
                         />
                     </div>
-                    <div className="relative col-span-2 rounded-lg overflow-hidden">
+                    <div className="relative md:col-span-2 rounded-lg overflow-hidden">
                         <div className="absolute bottom-0 left-0 right-0 bg-image-shadow h-16 bg-no-repeat bg-cover bg-center z-10" />
                         <div className="absolute bottom-0 pl-4 mb-3 text-white font-bold z-20">
                             Salinas do Maragogi Resort

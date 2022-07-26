@@ -2,7 +2,7 @@ import type { NextComponentType } from 'next'
 
 const Header: NextComponentType = () => {
   return (
-        <div className="container mx-auto px-4 h-24 flex items-center">
+        <div className="container max-w-7xl mx-auto px-4 h-24 flex items-center">
             <div className="font-black">
                 <a href="">
                     LOGO

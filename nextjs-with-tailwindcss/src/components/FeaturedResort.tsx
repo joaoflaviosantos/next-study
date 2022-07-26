@@ -6,9 +6,9 @@ import featuredResort from '../../public/images/featured-img.png'
 const FeaturedResort: NextComponentType = () => {
   return (
         <div className="mt-4">
-            <div className="container mx-auto px-4 py-10">
-                <div className="flex">
-                    <div className="pr-10">
+            <div className="container max-w-7xl mx-auto px-4 py-10">
+                <div className="flex flex-col-reverse lg:flex-row">
+                    <div className="lg:pr-10">
                         <div className="text-sm text-gray-400 font-medium">
                             RESORT EM DESTAQUE
                         </div>
@@ -31,7 +31,7 @@ const FeaturedResort: NextComponentType = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="flex-shrink-0 ml-auto">
+                    <div className="flex-shrink-0 text-center lg:ml-auto mb-4 lg:mb-0">
                         <Image
                         src={featuredResort}
                         alt="Featured Resort"
