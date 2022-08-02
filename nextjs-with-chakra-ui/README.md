@@ -6,6 +6,8 @@ Template generated from: https://github.com/vercel/next.js/tree/canary/examples/
 
 ## Chakra UI Youtube Videos: 
 
+https://www.youtube.com/watch?v=wI2vqXsjsIo&t
+
 https://www.youtube.com/watch?v=RjZOUCIwo4M
 
 https://www.youtube.com/watch?v=88E30bYyQIU&t
